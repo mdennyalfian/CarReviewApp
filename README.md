@@ -7,7 +7,7 @@ Terminal -> dir -> cd CarReviewApp -> dir -> dotnet run seeddata
 
 Structure API:
 1. Category
-EndPoint: https://localhost:7062/api/Category
+EndPoint: [URL]/api/Category
 
 A.GET
 Parameter:
@@ -32,7 +32,7 @@ D.DELETE
 
 
 2. Country
-EndPoint: https://localhost:7062/api/Country
+EndPoint: [URL]/api/Country
 
 A.GET
 Parameter:
@@ -57,7 +57,7 @@ D.DELETE
 
 
 3. Owner
-EndPoint: https://localhost:7062/api/Owner
+EndPoint: [URL]/api/Owner
 
 A.GET
 Parameter:
@@ -70,6 +70,7 @@ B.POST / Create
  		 "name": "string",
  		 "profession": "string"
 }
+
 C.PUT / Update
 	Parameter: ownerId
 	RequestBody:
@@ -84,7 +85,7 @@ D.DELETE
 
 
 4. Reviewer
-EndPoint: https://localhost:7062/api/Reviewer
+EndPoint: [URL]/api/Reviewer
 
 A.GET
 Parameter:
@@ -95,6 +96,7 @@ B.POST / Create
 {
  		 "name": "string"
 }
+
 C.PUT / Update
 	Parameter: reviewerId 
 	RequestBody:
@@ -108,7 +110,7 @@ D.DELETE
 
 
 5. Car
-EndPoint: https://localhost:7062/api/Car
+EndPoint: [URL]/api/Car
 
 a. GET
 Parameter:
@@ -135,7 +137,7 @@ d. DELETE
 Parameter: carId
 
 6. Review
-EndPoint: https://localhost:7062/api/Review
+EndPoint: [URL]/api/Review
 
 a. GET
 Parameter:
