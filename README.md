@@ -34,17 +34,17 @@ D.DELETE
 2. Country
 EndPoint: https://localhost:7062/api/Country
 
-B.GET
+A.GET
 Parameter:
 countryId -> Get Country by countryId 
 
-E.POST / Create
+B.POST / Create
 	RequestBody:
 {
     	"name": "string"
 }
 
-F.PUT / Update
+C.PUT / Update
 	Parameter: countryId
 	RequestBody:
 	{
@@ -52,7 +52,7 @@ F.PUT / Update
  		 "name": "string"
 }
 
-G.DELETE
+D.DELETE
 	Parameter: countryId
 
 
