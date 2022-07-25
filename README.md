@@ -2,9 +2,9 @@
 
 CREATE DATABASE
 1. Create New Database - Update config database in connectionstring -> appsettings.json
-2. Visual Studio - PackageManagerConsole -> Add-Migration InitialCreate -> Update-Database
+2. Visual Studio - PackageManagerConsole -> Add-Migration InitialCreate -> Update-Database 
 (Migration from code to Database SQL Server)
-3. Visual Studio -> Terminal (Developer PowerShell) -> dir -> cd CarReviewApp -> dir -> dotnet run seeddata
+4. Visual Studio -> Terminal (Developer PowerShell) -> dir -> cd CarReviewApp -> dir -> dotnet run seeddata 
 (Insert New Data from SeedData to Database)
 
 Structure API:
